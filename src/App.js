@@ -8,7 +8,8 @@ const App = () => {
 
   return (
     <div className="container">
-      <h1>Weathersby</h1>
+      <h1>Weathersby - Weather App</h1>
+      <h3>By Shujaat Azim</h3>
       <Search searchChange={searchChange} />
     </div>
   );

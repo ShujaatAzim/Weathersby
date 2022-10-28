@@ -28,6 +28,7 @@ const Search = props => {
   const handleChange = searchData => {
     setSearch(searchData);
     searchChange(searchData);
+    console.log(searchData)
   }
 
   return (
